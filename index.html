@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative writing</title>
+    <link rel="stylesheet" href="proweb.css">
+    <link rel="icon" href="Mylogopng.png" type="image/png">
+</head>
+<body>
+
+    <section id="header">
+      <div class="container">
+      <img src="Mylogopng.png" class="logo">
+      <div class="header-text">
+        <h1>The Purpose is to show & <span id="exp">explore</span><br> your <span id="exp">creativity</span> to the <span id="exp">world</span></h1>
+        <span class="square">
+        </span>
+        <p>Literature is very powerful tool. <br>It can unite as well as destory whole world </p>
+
+        <button class="common-btn">Start Reading</button>
+
+    <div class="line">
+     <span class="line-1"></span><br>
+     <span class="line-2"></span><br>
+     <span class="line-3"></span><br>
+    </div>  
+    </div>
+      </div>
+    </section>
+    
+    <nav id="sidenav">
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="About.html">About Us</a></li>
+            <li> <a href="Stories.html">Stories</a></li>
+            <li> <a href="thoughts.html">Thoughts</a></li>
+            <li> <a href="poetry.html">Poetry</a></li>
+            <li> <a href="essay.html">Essays</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+
+            <li> <div class="icons">
+               <a href="https://www.facebook.com/aayush.sah.562/?viewas=&should_open_composer=false&show_switched_toast=false&show_invite_to_follow=false&show_switched_tooltip=false&show_podcast_settings=false&show_community_transition=false&show_community_review_changes=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"> <img src="facebook.png"></a>
+               <a href="https://www.instagram.com/aayush_sah000/?hl=en"> <img src="instagram.png" ></a>
+               <a href="#"> <img src="youtube.png" ></a>
+                <a href="#"><img src="twitter.png" ></a>
+                 <p id="scoialstoo">In the socials too.</p> 
+        
+            </div></li>
+        </ul>
+    </nav>
+    <img src="menupng.png" id="menuBtn">
+ 
+
+    <footer>
+        <p><b><b>Copyright &copy; 2022 Aayush sah</b></p>
+
+       
+    </footer>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sidenav =document.getElementById("sidenav");
+
+        sidenav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+            }
+            else{
+                sidenav.style.right = "-250px"
+            }
+        }
+    </script>
+</body>
+</html>

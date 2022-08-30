@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="Mylogopng.png" type="image/png">
+    <script src="https://kit.fontawesome.com/cc29bc75d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header">
+         <div class="container">
+            <a href="index.html"><img src="Mylogopng.png" class="logo">  </a>
+        </div>
+        <div class="header-text">
+            
+            <nav id="sidenav">
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                     <li> <a href="About.html">About Us</a></li> 
+                    <li> <a href="Stories.html">Stories</a></li>
+                    <li> <a href="thoughts.html">Thoughts</a></li>
+                    <li> <a href="poetry.html">Poetry</a></li>
+                    <li> <a href="essay.html">Essays</a></li>
+                    <li> <div class="icons">
+                        <a href=" https://www.facebook.com/aayush.sah.562/?viewas=&should_open_composer=false&show_switched_toast=false&show_invite_to_follow=false&show_switched_tooltip=false&show_podcast_settings=false&show_community_transition=false&show_community_review_changes=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"> <img src="facebook.png"></a>
+                        <a href="https://www.instagram.com/aayush_sah000/?hl=en"> <img src="instagram.png" ></a>
+                        <a href="#"> <img src="youtube.png" ></a>
+                         <a href="#"><img src="twitter.png" ></a>
+                         <!-- <img src="linkedin.png" > -->
+                          <p>In the socials too.</p> 
+                 
+                     </div></li>
+                </ul>
+            </nav>
+            <img src="menupng.png" id="menuBtn">
+            <div class="hero">
+                <form>
+                    <div class="row">
+                        <div class="input-group">
+                            <input type="text" id="name"  required>
+                            <label for="name"><i class="fa-solid fa-user"></i>Your Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="number" id="number" required>
+                            <label for="number"><i class="fa-solid fa-phone"></i>Phone no.</label>
+                        </div>
+                    </div>
+                   
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email"><i class="fa-solid fa-envelope"></i>Email ID</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="8" required></textarea>
+                        <label for="message"><i class="fa-solid fa-comments"></i>Your Message</label>
+                    </div>
+                    <button type="submit">SUBMIT<i class="fa-solid fa-paper-plane"></i></button>
+                    
+                </form>
+            </div>
+    </section>
+    
+   
+
+    <footer>
+        <p><b><b>Copyright &copy; 2022 Aayush sah</b></p>
+    </footer>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sidenav =document.getElementById("sidenav");
+
+        sidenav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+            }
+            else{
+                sidenav.style.right = "-250px"
+            }
+        }
+    </script>
+</body>
+</html>

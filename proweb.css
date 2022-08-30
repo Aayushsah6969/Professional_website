@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#header{
+    height: 100vh;
+    background-image: url(image-9.jpg);
+    background-position: center;
+    background-size:  cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.logo{
+   margin-left: -20px;
+    margin-top: -20px;
+    width: 100px;
+    /* cursor: pointer; */
+}
+ .header-text{
+    max-width: 350px;
+    margin-top: 90px;
+    color: rgb(247, 231, 231);
+} 
+.header-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+}
+h1{
+    font-size: 35px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #e3431b;
+    margin: 15px 0;
+}
+.common-btn{
+    padding: 11px 18px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #e3431b;
+    cursor: pointer;
+}
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.line-1{
+    width: 15px;
+    height: 15px;
+    background: #e3431b;
+    display: inline-block;
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    background: #e3431b;
+    display: inline-block;
+}
+.line-3{
+    width: 60px;
+    height: 1px;
+    background: #e3431b;
+    display: inline-block;
+}
+.line{
+    line-height: 8px;
+}
+#sidenav{
+    padding: 5px;
+    width: 250;
+    height: 100vh;
+    position: fixed;
+    right :-250px;
+    left: 10;
+    top: 0;
+    background: #e3431b;
+    z-index: 2;
+    margin-left: auto;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(136, 225, 225);
+    text-size-adjust: 45px;
+}
+#sidenav ul li a:hover{
+    background-color: rgb(49, 55, 50);
+    color: aqua;
+}
+a{
+    font-size: larger;
+}
+#sidenav icons{
+    bottom: 0px;
+}
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 3px;
+    z-index: 2;
+    cursor: pointer;
+    background-color: #343130 ;
+    align-items: center;
+}
+#menuBtn:hover{
+    background-color: red;
+    
+}
+footer{
+	background-color:#dc4545;
+	color:#333;
+	text-align: center;
+	padding: 15px;
+	margin-top: 0%;
+	font-size: 20px;
+}
+.common-btn:hover{
+ background-color: red;
+ border-color: aqua;
+ color: aliceblue;
+ transition: 0.3s;
+}
+.common-btn{
+    color:aqua;
+}
+#exp{
+    color: aqua;
+}
+/* about */
+/* #about{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 100%;
+}
+.about-right-col{
+
+} */
+
+ .icons img{
+    background-color: rgb(79, 75, 75);
+    cursor: pointer;
+    width: 45px;
+ }
+ .icons img:hover{
+    background-color: rgb(105, 157, 157);
+ }
+ #scoialstoo{
+    color: aliceblue;
+ }
